@@ -12,5 +12,5 @@
 #import "KuroTextField.h"
 #import "MinoruTextField.h"
 #import "NarikoTextField.h"
-#import "YoshikoTextField"
+#import "YoshikoTextField.h"
 
