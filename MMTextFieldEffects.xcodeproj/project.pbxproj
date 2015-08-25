@@ -14,16 +14,8 @@
 		5555CAA91B5F804900603699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5555CAA81B5F804900603699 /* Images.xcassets */; };
 		5555CAAC1B5F804900603699 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5555CAAA1B5F804900603699 /* LaunchScreen.xib */; };
 		5555CAB81B5F804900603699 /* MMTextFieldEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAB71B5F804900603699 /* MMTextFieldEffectsTests.m */; };
-		5555CACD1B5F80A400603699 /* IchiroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC21B5F80A400603699 /* IchiroTextField.m */; };
-		5555CACE1B5F80A400603699 /* JuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC41B5F80A400603699 /* JuroTextField.m */; };
-		5555CACF1B5F80A400603699 /* KuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC61B5F80A400603699 /* KuroTextField.m */; };
-		5555CAD01B5F80A400603699 /* MinoruTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC81B5F80A400603699 /* MinoruTextField.m */; };
-		5555CAD11B5F80A400603699 /* NarikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACA1B5F80A400603699 /* NarikoTextField.m */; };
-		5555CAD21B5F80A400603699 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */; };
 		5555CAD61B5F82B100603699 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAD51B5F82B100603699 /* TableViewController.m */; };
 		558AF4001B74A43600743D4C /* Yoshiko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 558AF3FF1B74A43600743D4C /* Yoshiko.gif */; };
-		55A3D5E01B62312F004FFC20 /* BetaNaoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */; };
-		55A3D5E11B62312F004FFC20 /* YoshikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */; };
 		55A3D5EE1B624707004FFC20 /* ichiro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E61B624707004FFC20 /* ichiro.gif */; };
 		55A3D5EF1B624707004FFC20 /* juro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E71B624707004FFC20 /* juro.gif */; };
 		55A3D5F01B624707004FFC20 /* kuro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E81B624707004FFC20 /* kuro.gif */; };
@@ -31,6 +23,14 @@
 		55A3D5F21B624707004FFC20 /* Nao.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EA1B624707004FFC20 /* Nao.gif */; };
 		55A3D5F31B624707004FFC20 /* Nariko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EB1B624707004FFC20 /* Nariko.gif */; };
 		55A3D5F41B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */; };
+		91B07F351B8C0A6700C467C9 /* BetaNaoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F261B8C0A6700C467C9 /* BetaNaoTextField.m */; };
+		91B07F361B8C0A6700C467C9 /* IchiroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F281B8C0A6700C467C9 /* IchiroTextField.m */; };
+		91B07F371B8C0A6700C467C9 /* JuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F2A1B8C0A6700C467C9 /* JuroTextField.m */; };
+		91B07F381B8C0A6700C467C9 /* KuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F2C1B8C0A6700C467C9 /* KuroTextField.m */; };
+		91B07F391B8C0A6700C467C9 /* MinoruTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F2E1B8C0A6700C467C9 /* MinoruTextField.m */; };
+		91B07F3A1B8C0A6700C467C9 /* NarikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F301B8C0A6700C467C9 /* NarikoTextField.m */; };
+		91B07F3B1B8C0A6700C467C9 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F321B8C0A6700C467C9 /* PulsingHaloLayer.m */; };
+		91B07F3C1B8C0A6700C467C9 /* YoshikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B07F341B8C0A6700C467C9 /* YoshikoTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,25 +57,9 @@
 		5555CAB11B5F804900603699 /* MMTextFieldEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMTextFieldEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5555CAB61B5F804900603699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5555CAB71B5F804900603699 /* MMTextFieldEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTextFieldEffectsTests.m; sourceTree = "<group>"; };
-		5555CAC11B5F80A400603699 /* IchiroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IchiroTextField.h; sourceTree = "<group>"; };
-		5555CAC21B5F80A400603699 /* IchiroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IchiroTextField.m; sourceTree = "<group>"; };
-		5555CAC31B5F80A400603699 /* JuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuroTextField.h; sourceTree = "<group>"; };
-		5555CAC41B5F80A400603699 /* JuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuroTextField.m; sourceTree = "<group>"; };
-		5555CAC51B5F80A400603699 /* KuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuroTextField.h; sourceTree = "<group>"; };
-		5555CAC61B5F80A400603699 /* KuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuroTextField.m; sourceTree = "<group>"; };
-		5555CAC71B5F80A400603699 /* MinoruTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinoruTextField.h; sourceTree = "<group>"; };
-		5555CAC81B5F80A400603699 /* MinoruTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinoruTextField.m; sourceTree = "<group>"; };
-		5555CAC91B5F80A400603699 /* NarikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NarikoTextField.h; sourceTree = "<group>"; };
-		5555CACA1B5F80A400603699 /* NarikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NarikoTextField.m; sourceTree = "<group>"; };
-		5555CACB1B5F80A400603699 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
-		5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
 		5555CAD41B5F82B100603699 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		5555CAD51B5F82B100603699 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		558AF3FF1B74A43600743D4C /* Yoshiko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Yoshiko.gif; sourceTree = "<group>"; };
-		55A3D5DC1B62312F004FFC20 /* BetaNaoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaNaoTextField.h; sourceTree = "<group>"; };
-		55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaNaoTextField.m; sourceTree = "<group>"; };
-		55A3D5DE1B62312F004FFC20 /* YoshikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoshikoTextField.h; sourceTree = "<group>"; };
-		55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoshikoTextField.m; sourceTree = "<group>"; };
 		55A3D5E61B624707004FFC20 /* ichiro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ichiro.gif; sourceTree = "<group>"; };
 		55A3D5E71B624707004FFC20 /* juro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = juro.gif; sourceTree = "<group>"; };
 		55A3D5E81B624707004FFC20 /* kuro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kuro.gif; sourceTree = "<group>"; };
@@ -83,6 +67,22 @@
 		55A3D5EA1B624707004FFC20 /* Nao.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nao.gif; sourceTree = "<group>"; };
 		55A3D5EB1B624707004FFC20 /* Nariko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nariko.gif; sourceTree = "<group>"; };
 		55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-07-24 at 3.38.41 pm.png"; sourceTree = "<group>"; };
+		91B07F251B8C0A6700C467C9 /* BetaNaoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaNaoTextField.h; sourceTree = "<group>"; };
+		91B07F261B8C0A6700C467C9 /* BetaNaoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaNaoTextField.m; sourceTree = "<group>"; };
+		91B07F271B8C0A6700C467C9 /* IchiroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IchiroTextField.h; sourceTree = "<group>"; };
+		91B07F281B8C0A6700C467C9 /* IchiroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IchiroTextField.m; sourceTree = "<group>"; };
+		91B07F291B8C0A6700C467C9 /* JuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuroTextField.h; sourceTree = "<group>"; };
+		91B07F2A1B8C0A6700C467C9 /* JuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuroTextField.m; sourceTree = "<group>"; };
+		91B07F2B1B8C0A6700C467C9 /* KuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuroTextField.h; sourceTree = "<group>"; };
+		91B07F2C1B8C0A6700C467C9 /* KuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuroTextField.m; sourceTree = "<group>"; };
+		91B07F2D1B8C0A6700C467C9 /* MinoruTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinoruTextField.h; sourceTree = "<group>"; };
+		91B07F2E1B8C0A6700C467C9 /* MinoruTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinoruTextField.m; sourceTree = "<group>"; };
+		91B07F2F1B8C0A6700C467C9 /* NarikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NarikoTextField.h; sourceTree = "<group>"; };
+		91B07F301B8C0A6700C467C9 /* NarikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NarikoTextField.m; sourceTree = "<group>"; };
+		91B07F311B8C0A6700C467C9 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		91B07F321B8C0A6700C467C9 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		91B07F331B8C0A6700C467C9 /* YoshikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoshikoTextField.h; sourceTree = "<group>"; };
+		91B07F341B8C0A6700C467C9 /* YoshikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoshikoTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,80 +169,9 @@
 		5555CAD31B5F80B300603699 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				55A3D5E31B62313F004FFC20 /* Nao(Beta) */,
-				55A3D5E21B623134004FFC20 /* Yoshiko */,
-				5555CAD71B5FCE1200603699 /* Ichiro */,
-				5555CAD81B5FCE1A00603699 /* Juro */,
-				5555CAD91B5FCE2100603699 /* Kuro */,
-				5555CADA1B5FCE2900603699 /* Minoru */,
-				5555CADB1B5FCE3100603699 /* Nariko */,
+				91B07F241B8C0A6700C467C9 /* Classes */,
 			);
 			name = TextFieldEffects;
-			sourceTree = "<group>";
-		};
-		5555CAD71B5FCE1200603699 /* Ichiro */ = {
-			isa = PBXGroup;
-			children = (
-				5555CAC11B5F80A400603699 /* IchiroTextField.h */,
-				5555CAC21B5F80A400603699 /* IchiroTextField.m */,
-			);
-			name = Ichiro;
-			sourceTree = "<group>";
-		};
-		5555CAD81B5FCE1A00603699 /* Juro */ = {
-			isa = PBXGroup;
-			children = (
-				5555CAC31B5F80A400603699 /* JuroTextField.h */,
-				5555CAC41B5F80A400603699 /* JuroTextField.m */,
-			);
-			name = Juro;
-			sourceTree = "<group>";
-		};
-		5555CAD91B5FCE2100603699 /* Kuro */ = {
-			isa = PBXGroup;
-			children = (
-				5555CAC51B5F80A400603699 /* KuroTextField.h */,
-				5555CAC61B5F80A400603699 /* KuroTextField.m */,
-			);
-			name = Kuro;
-			sourceTree = "<group>";
-		};
-		5555CADA1B5FCE2900603699 /* Minoru */ = {
-			isa = PBXGroup;
-			children = (
-				5555CACB1B5F80A400603699 /* PulsingHaloLayer.h */,
-				5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */,
-				5555CAC71B5F80A400603699 /* MinoruTextField.h */,
-				5555CAC81B5F80A400603699 /* MinoruTextField.m */,
-			);
-			name = Minoru;
-			sourceTree = "<group>";
-		};
-		5555CADB1B5FCE3100603699 /* Nariko */ = {
-			isa = PBXGroup;
-			children = (
-				5555CAC91B5F80A400603699 /* NarikoTextField.h */,
-				5555CACA1B5F80A400603699 /* NarikoTextField.m */,
-			);
-			name = Nariko;
-			sourceTree = "<group>";
-		};
-		55A3D5E21B623134004FFC20 /* Yoshiko */ = {
-			isa = PBXGroup;
-			children = (
-				55A3D5DE1B62312F004FFC20 /* YoshikoTextField.h */,
-				55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */,
-			);
-			name = Yoshiko;
-			sourceTree = "<group>";
-		};
-		55A3D5E31B62313F004FFC20 /* Nao(Beta) */ = {
-			isa = PBXGroup;
-			children = (
-				55A3D5DC1B62312F004FFC20 /* BetaNaoTextField.h */,
-				55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */,
-			);
-			name = "Nao(Beta)";
 			sourceTree = "<group>";
 		};
 		55A3D5E51B624707004FFC20 /* textfields_images */ = {
@@ -258,6 +187,29 @@
 				55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */,
 			);
 			path = textfields_images;
+			sourceTree = "<group>";
+		};
+		91B07F241B8C0A6700C467C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91B07F251B8C0A6700C467C9 /* BetaNaoTextField.h */,
+				91B07F261B8C0A6700C467C9 /* BetaNaoTextField.m */,
+				91B07F271B8C0A6700C467C9 /* IchiroTextField.h */,
+				91B07F281B8C0A6700C467C9 /* IchiroTextField.m */,
+				91B07F291B8C0A6700C467C9 /* JuroTextField.h */,
+				91B07F2A1B8C0A6700C467C9 /* JuroTextField.m */,
+				91B07F2B1B8C0A6700C467C9 /* KuroTextField.h */,
+				91B07F2C1B8C0A6700C467C9 /* KuroTextField.m */,
+				91B07F2D1B8C0A6700C467C9 /* MinoruTextField.h */,
+				91B07F2E1B8C0A6700C467C9 /* MinoruTextField.m */,
+				91B07F2F1B8C0A6700C467C9 /* NarikoTextField.h */,
+				91B07F301B8C0A6700C467C9 /* NarikoTextField.m */,
+				91B07F311B8C0A6700C467C9 /* PulsingHaloLayer.h */,
+				91B07F321B8C0A6700C467C9 /* PulsingHaloLayer.m */,
+				91B07F331B8C0A6700C467C9 /* YoshikoTextField.h */,
+				91B07F341B8C0A6700C467C9 /* YoshikoTextField.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,18 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5555CAD01B5F80A400603699 /* MinoruTextField.m in Sources */,
-				5555CAD11B5F80A400603699 /* NarikoTextField.m in Sources */,
 				5555CAA41B5F804900603699 /* ViewController.m in Sources */,
 				5555CAD61B5F82B100603699 /* TableViewController.m in Sources */,
-				5555CAD21B5F80A400603699 /* PulsingHaloLayer.m in Sources */,
+				91B07F371B8C0A6700C467C9 /* JuroTextField.m in Sources */,
 				5555CAA11B5F804900603699 /* AppDelegate.m in Sources */,
-				5555CACF1B5F80A400603699 /* KuroTextField.m in Sources */,
+				91B07F381B8C0A6700C467C9 /* KuroTextField.m in Sources */,
+				91B07F391B8C0A6700C467C9 /* MinoruTextField.m in Sources */,
+				91B07F351B8C0A6700C467C9 /* BetaNaoTextField.m in Sources */,
+				91B07F3B1B8C0A6700C467C9 /* PulsingHaloLayer.m in Sources */,
+				91B07F3C1B8C0A6700C467C9 /* YoshikoTextField.m in Sources */,
+				91B07F3A1B8C0A6700C467C9 /* NarikoTextField.m in Sources */,
 				5555CA9E1B5F804900603699 /* main.m in Sources */,
-				55A3D5E11B62312F004FFC20 /* YoshikoTextField.m in Sources */,
-				55A3D5E01B62312F004FFC20 /* BetaNaoTextField.m in Sources */,
-				5555CACD1B5F80A400603699 /* IchiroTextField.m in Sources */,
-				5555CACE1B5F80A400603699 /* JuroTextField.m in Sources */,
+				91B07F361B8C0A6700C467C9 /* IchiroTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
