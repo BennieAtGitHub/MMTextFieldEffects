@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/BennieAtGitHub/MMTextFieldEffects.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/BennieAtGitHub/MMTextFieldEffects.git", :tag => "0.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
