@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "MMTextFieldEffects"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MMTextFieldEffects."
+  s.summary      = "Extension of TextFieldEffects with Custom UITextFields effects"
 
   s.description  = <<-DESC
-                   A longer description of MMTextFieldEffects in Markdown format.
+                   Extension of TextFieldEffects with Custom UITextFields effects inspired by Codrops, built using Objective-C — Edit
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
