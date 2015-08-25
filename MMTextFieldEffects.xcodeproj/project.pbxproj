@@ -83,6 +83,7 @@
 		91B07F321B8C0A6700C467C9 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
 		91B07F331B8C0A6700C467C9 /* YoshikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoshikoTextField.h; sourceTree = "<group>"; };
 		91B07F341B8C0A6700C467C9 /* YoshikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoshikoTextField.m; sourceTree = "<group>"; };
+		91B07F6F1B8C142E00C467C9 /* MMTextFieldEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTextFieldEffects.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +209,7 @@
 				91B07F321B8C0A6700C467C9 /* PulsingHaloLayer.m */,
 				91B07F331B8C0A6700C467C9 /* YoshikoTextField.h */,
 				91B07F341B8C0A6700C467C9 /* YoshikoTextField.m */,
+				91B07F6F1B8C142E00C467C9 /* MMTextFieldEffects.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
